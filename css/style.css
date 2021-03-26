@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--fondo-gris: #f5f5f5;
+	--color-contenido: #898989
+}
+
+body{
+	font-family: 'Catamaran';
+	color: var(--color-contenido);
+	font-size: 16px;
+}
+
+header{
+	background-color: #fff;
+}
+
+.titulo{
+	color: var(--color-negro);
+	font-size: 36px;
+	font-weight: 700;
+	padding: 50px 0 15px 0;
+}
+
+.subtitulo{
+	color: var(--color-negro);
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#hero{
+	background-image: url("../img/home-event-slide-2.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 10% 0;
+}
+
+#hero h1,
+#hero-slides h1{
+	font-size: 24px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+#hero h3,
+#hero-slides h3{
+	font-size: 80px;
+	margin-bottom: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#hero .btn-light,
+#hero-slides .btn-light{
+	background-color: #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: var(--color-negro);
+	font-size: 12px;
+	font-weight: 800;
+	border-radius: 100px;
+}
+
+#conferences{
+	text-align: center;
+	padding: 60px 0;
+}
+
+#conferences .subtitulo{
+	padding: 25px 0 20px 0;
+}
+
+#conferences p{
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.readmore{
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: var(--color-negro);
+}
+
+#speakers{
+	text-align: center;
+	padding: 90px 0 50px 0;
+}
+
+#speakers .subtitulo{
+	padding: 25px 0 0 0;
+}
+
+#speakers p{
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+#speakers span p{
+	padding: 0 0 40px 0;
+}
+
+.readmore{
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: var(--color-negro);
+}
+
+#meetings{
+	background-color:#282d33;
+	color: #c3c3c3;
+	padding: 80px 60px;
+}
+
+#meetings article{
+	padding: 0 60px;
+}
+
+#meetings i{
+	font-size: 60px;
+	color: var(--color-contenido);
+	padding: 15px 0;
+	margin-bottom: 30px;
+}
+
+#meetings h3{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#meetings h6{
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#meetings p{
+	font-size: 14px;
+	color: var(--color-contenido);
+}
+
+#sponsors{
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+#sponsors h2{
+    padding: 20px 0;
+}
+
+#sponsors p{
+    padding: 0 150px 100px 150px;
+}
+
+#sponsors2{
+    padding: 30px 0 180px 0;
+    text-align: center;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
